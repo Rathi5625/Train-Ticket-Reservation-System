@@ -5,6 +5,7 @@ C:\Users\parth\Train Ticket Reservation System\train-reservation-system\backend\
 C:\Users\parth\Train Ticket Reservation System\train-reservation-system\backend\src\main\java\com\trainreservation\dto\TrainSearchRequest.java
 C:\Users\parth\Train Ticket Reservation System\train-reservation-system\backend\src\main\java\com\trainreservation\repository\TrainRepository.java
 C:\Users\parth\Train Ticket Reservation System\train-reservation-system\backend\src\main\java\com\trainreservation\dto\LoginRequest.java
+C:\Users\parth\Train Ticket Reservation System\train-reservation-system\backend\src\main\java\com\trainreservation\config\JpaConfig.java
 C:\Users\parth\Train Ticket Reservation System\train-reservation-system\backend\src\main\java\com\trainreservation\config\SecurityConfig.java
 C:\Users\parth\Train Ticket Reservation System\train-reservation-system\backend\src\main\java\com\trainreservation\TrainReservationApplication.java
 C:\Users\parth\Train Ticket Reservation System\train-reservation-system\backend\src\main\java\com\trainreservation\security\JwtTokenProvider.java

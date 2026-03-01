@@ -380,8 +380,8 @@ a:hover {
 /* Navbar */
 .navbar {
   background: rgba(20, 24, 36, 0.8);
-  backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   position: sticky;
   top: 0;
@@ -504,8 +504,8 @@ a:hover {
 
 .search-form {
   background: rgba(20, 24, 36, 0.6);
-  backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-2xl);
   padding: var(--spacing-8);
