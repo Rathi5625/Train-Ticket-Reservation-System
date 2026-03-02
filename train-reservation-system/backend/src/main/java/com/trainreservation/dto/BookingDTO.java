@@ -1,16 +1,34 @@
 package com.trainreservation.dto;
 
+import java.time.LocalDateTime;
+import java.util.List;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
-import java.util.List;
-
 @Data
 @Builder
 @NoArgsConstructor
+/**
+ * @param id
+ * @param bookingReference
+ * @param userId
+ * @param userEmail
+ * @param userName
+ * @param train
+ * @param numberOfSeats
+ * @param totalFare
+ * @param status
+ * @param paymentStatus
+ * @param paymentMethod
+ * @param transactionId
+ * @param passengers
+ * @param createdAt
+ * @param updatedAt
+ * @param cancelledAt
+ */
 @AllArgsConstructor
 public class BookingDTO {
     private Long id;
@@ -24,7 +42,13 @@ public class BookingDTO {
     private String status;
     private String paymentStatus;
     private String paymentMethod;
+    /**
+     *
+     */
     private String transactionId;
+    public BookingDTO(String transactionId) {
+        this.transactionId = transactionId;
+    }
     private List<PassengerDTO> passengers;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
